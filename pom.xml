@@ -43,6 +43,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <attach>false</attach>
                     <finalName>hello-servlet-app</finalName>
+                    <outputDirectory>deploy</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>
