@@ -9,6 +9,7 @@ case "$1" in
         ;;
     restart)
         /sbin/start-stop-daemon -K -p ${APP_NAME}.pid &>/dev/null
+        sleep 3
         /sbin/start-stop-daemon -S -b -m -d ./ -p ${APP_NAME}.pid -x /usr/bin/java -- -jar ${APP_NAME}.jar
         echo "Hello servlet restarted"
         ;;
