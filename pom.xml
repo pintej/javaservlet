@@ -42,7 +42,7 @@
                     </descriptorRefs>
                     <appendAssemblyId>false</appendAssemblyId>
                     <attach>false</attach>
-                    <finalName>${basedir}</finalName>
+                    <finalName>hello-servlet-app</finalName>
                 </configuration>
                 <executions>
                     <execution>
