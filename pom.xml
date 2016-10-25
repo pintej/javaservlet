@@ -41,6 +41,8 @@
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <appendAssemblyId>false</appendAssemblyId>
+                    <attach>false</attach>
+                    <finalName>${basedir}</finalName>
                 </configuration>
                 <executions>
                     <execution>
