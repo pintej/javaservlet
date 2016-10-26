@@ -10,10 +10,10 @@ import java.io.PrintWriter;
 public class HelloServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/plain");
+        response.setContentType("text/html");
         response.setStatus(200);
         PrintWriter writer = response.getWriter();
-        writer.print("Buddy Works !!!");
+        writer.print("<h1>Buddy Works !!!</h1>");
         writer.close();
     }
 }
